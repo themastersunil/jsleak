@@ -1011,7 +1011,6 @@ func regexGrep(content string, Burl string) {
 		        "Storecove" : `(?:storecove).{0,40}\\b([a-zA-Z0-9_-]{43})\\b`,
 		        "Stormglass" : `(?:stormglass).{0,40}\\b([0-9Aa-z-]{73})\\b`,
 		        "Storyblok" : `(?:storyblok).{0,40}\\b([0-9A-Za-z]{22}t{2})\\b`,
-		        "Storychief" : `(?:storychief).{0,40}\\b([a-zA-Z0-9_\\-.]{940,1000})`,
 		        "Strava - 1" : `(?:strava).{0,40}\\b([0-9]{5})\\b`,
 		        "Strava - 2" : `(?:strava).{0,40}\\b([0-9a-z]{40})\\b`,
 		        "Stripe API Key - 1" : `sk_live_[0-9a-zA-Z]{24}`,
