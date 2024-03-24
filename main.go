@@ -630,7 +630,6 @@ func regexGrep(content string, Burl string) {
 		        "Github_old" : `(?:github)[^\\.].{0,40}[ =:'\"]+([a-f0-9]{40})\\b`,
 		        "Githubapp - 1" : `(?:github).{0,40}\\b([0-9]{6})\\b`,
 		        "Githubapp - 2" : `(?:github).{0,40}(-----BEGIN RSA PRIVATE KEY-----\\s[A-Za-z0-9+\\/\\s]*\\s-----END RSA PRIVATE KEY-----)`,
-		        "Gitlab" : `(?:gitlab).{0,40}\\b([a-zA-Z0-9\\-=_]{20,22})\\b`,
 		        "Gitlabv2" : `\\b(glpat-[a-zA-Z0-9\\-=_]{20,22})\\b`,
 		        "Gitter" : `(?:gitter).{0,40}\\b([a-z0-9-]{40})\\b`,
 		        "Glassnode" : `(?:glassnode).{0,40}\\b([0-9A-Za-z]{27})\\b`,
