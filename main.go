@@ -311,7 +311,6 @@ func regexGrep(content string, Burl string) {
 		        "Bannerbear" : `(?:bannerbear).{0,40}\\b([0-9a-zA-Z]{22}tt)\\b`,
 		        "Baremetrics" : `(?:baremetrics).{0,40}\\b([a-zA-Z0-9_]{25})\\b`,
 		        "Baseapiio" : `(?:baseapi|base-api).{0,40}\\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\\b`,
-		        "Basic token" : `basic [a-zA-Z0-9_\\-:\\.=]+`,
 		        "Beamer" : `(?:beamer).{0,40}\\b([a-zA-Z0-9_+/]{45}=)`,
 		        "Bearer token" : `(bearer).+`,
 		        "Beebole" : `(?:beebole).{0,40}\\b([0-9a-z]{40})\\b`,
