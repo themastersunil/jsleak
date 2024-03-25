@@ -23,7 +23,7 @@ var httpClient = &http.Client{
 	Transport: &http.Transport{
 		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 		DialContext: (&net.Dialer{
-			Timeout:   2 * time.Second,
+			Timeout:   5 * time.Second,
 			KeepAlive: time.Second,
 			DualStack: true,
 		}).DialContext,
