@@ -300,6 +300,8 @@ func regexGrep(content string, Burl string) {
                 "Zendeskapi - 3" : `(?:zendesk).{0,40}([A-Za-z0-9_-]{40})`,
                 "Zendesk Secret Key" : `(?i)(?:zendesk)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([a-z0-9]{40})(?:['|\"|\n|\r|\s|\x60|;]|$)`,
                 "zendesk_travis_github" : `zendesk[_-]?travis[_-]?github(=| =|:| :)`,
+		"JSON Web Token" : `(?i)\b(ey[0-9a-z]{30,34}\.ey[0-9a-z-\/_]{30,500}\.[0-9a-zA-Z-\/_]{10,200}={0,2})(?:['|\"|\n|\r|\s|\x60|;]|$)`,
+		"Private Key" : `(?i)-----BEGIN[ A-Z0-9_-]{0,100}PRIVATE KEY( BLOCK)?-----[\s\S-]*KEY( BLOCK)?----`,
 	}
 
 	for key, element := range regex_map {
