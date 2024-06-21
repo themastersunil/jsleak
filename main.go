@@ -172,7 +172,6 @@ func regexGrep(content string, Burl string) {
                 "homebrew_github_api_token" : `homebrew[_-]?github[_-]?api[_-]?token(=| =|:| :)`,
                 "Hubspotapikey" : `(?:hubspot).{0,40}\\b([A-Za-z0-9]{8}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{12})\\b`,
                 "HubSpot API Token" : `(?i)(?:hubspot)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})(?:['|\"|\n|\r|\s|\x60|;]|$)`,
-                "Instagram oauth" : `[0-9a-fA-F]{7}\\.[0-9a-fA-F]{32}`,
                 "Ipstack" : `(?:ipstack).{0,40}\\b([a-fA-f0-9]{32})\\b`,
                 "Jumpcloud" : `(?:jumpcloud).{0,40}\\b([a-zA-Z0-9]{40})\\b`,
                 "Keenio - 1" : `(?:keen).{0,40}\\b([0-9a-z]{24})\\b`,
